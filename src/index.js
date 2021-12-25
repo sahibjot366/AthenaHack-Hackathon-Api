@@ -25,10 +25,8 @@ app.get('/weather/details',async (req,res)=>{
 })
 
 app.get('/food/list',async (req,res)=>{
-    const weather=req.query.weather;
-    
 })
-const port=process.env.PORT | 3000;
+const port=process.env.PORT;
 app.listen(port,()=>{
     console.log(`Server running on port ${port}...`)
 })
