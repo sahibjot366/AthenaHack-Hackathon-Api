@@ -1,0 +1,13 @@
+AthenaHack Backend
+Deployed on Heroku
+
+REST API'S
+
+1. GET Method - Get current temperature,feelslike temperature and weather_details using user's location coordinates.
+https://fomo-athenahack-hackathon.herokuapp.com/weather/details?latitude=USER_LATITUDE&longitude=USER_LONGITUDE
+
+2. GET Method - Get list of food items filtered according to current weather conditions at user's location.
+https://fomo-athenahack-hackathon.herokuapp.com/food/list?weather=USER_LOCATION_WEATHER
+
+3. GET Method - Get List of famous food items using user's location coordinates
+https://fomo-athenahack-hackathon.herokuapp.com/food/list/regionWise?latitude=USER_LATITUDE&longitude=USER_LONGITUDE
